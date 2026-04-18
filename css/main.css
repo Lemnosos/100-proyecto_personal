@@ -1,0 +1,70 @@
+.comic-relief-regular {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comic-relief-bold {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Comic Relief", system-ui;
+
+}
+
+h1 {
+    text-decoration: underline;
+    color: green;
+}
+
+li {
+    display: inline;
+}
+
+nav>ul>li>a {
+    color: yellow !important;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    /*en modo telefono solo hay una columna*/
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+nav {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background-color: black;
+}
+
+header {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+}
+
+footer {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+    background-color: gray;
+}
+
+section {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    background-color: black;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    overflow: auto;
+}
+
+article {
+    justify-content: center;
+}
