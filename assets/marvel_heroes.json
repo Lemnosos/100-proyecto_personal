@@ -1,0 +1,219 @@
+[
+    {
+        "nombre_heroe": "Iron Man",
+        "nombre_civil": "Tony Stark",
+        "lugar_nacimiento": "Long Island, New York",
+        "superpoderes": [
+            "Genio intelectual",
+            "Armadura potenciada"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Iron_Man_Armor_Model_40.png/200px-Iron_Man_Armor_Model_40.png"
+    },
+    {
+        "nombre_heroe": "Captain America",
+        "nombre_civil": "Steve Rogers",
+        "lugar_nacimiento": "Brooklyn, New York",
+        "superpoderes": [
+            "Fuerza sobrehumana",
+            "Agilidad",
+            "Resistencia"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Captain_America_Shield.png/200px-Captain_America_Shield.png"
+    },
+    {
+        "nombre_heroe": "Spider-Man",
+        "nombre_civil": "Peter Parker",
+        "lugar_nacimiento": "Queens, New York",
+        "superpoderes": [
+            "Fuerza",
+            "Agilidad",
+            "Sentido arácnido",
+            "Telarañas"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Spider-Man.jpg/200px-Spider-Man.jpg"
+    },
+    {
+        "nombre_heroe": "Thor",
+        "nombre_civil": "Thor Odinson",
+        "lugar_nacimiento": "Asgard",
+        "superpoderes": [
+            "Fuerza divina",
+            "Control del trueno",
+            "Inmortalidad"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Thor_Official_Poster.jpg/200px-Thor_Official_Poster.jpg"
+    },
+    {
+        "nombre_heroe": "Hulk",
+        "nombre_civil": "Bruce Banner",
+        "lugar_nacimiento": "Dayton, Ohio",
+        "superpoderes": [
+            "Fuerza ilimitada",
+            "Regeneración",
+            "Resistencia"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hulk_%28comics_character%29.png/200px-Hulk_%28comics_character%29.png"
+    },
+    {
+        "nombre_heroe": "Black Widow",
+        "nombre_civil": "Natasha Romanoff",
+        "lugar_nacimiento": "Stalingrado, Rusia",
+        "superpoderes": [
+            "Habilidades de espionaje",
+            "Artes marciales",
+            "Agilidad"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_Widow_%28Marvel_Comics%29.png/200px-Black_Widow_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Hawkeye",
+        "nombre_civil": "Clint Barton",
+        "lugar_nacimiento": "Waverly, Iowa",
+        "superpoderes": [
+            "Maestría con arco",
+            "Habilidades de combate",
+            "Precisión"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hawkeye_%28Marvel_Comics%29.png/200px-Hawkeye_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Doctor Strange",
+        "nombre_civil": "Stephen Strange",
+        "lugar_nacimiento": "Filadelfia, Pensilvania",
+        "superpoderes": [
+            "Magia",
+            "Teletransportación",
+            "Manipulación del tiempo"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Doctor_Strange_poster.jpg/200px-Doctor_Strange_poster.jpg"
+    },
+    {
+        "nombre_heroe": "Captain Marvel",
+        "nombre_civil": "Carol Danvers",
+        "lugar_nacimiento": "Boston, Massachusetts",
+        "superpoderes": [
+            "Vuelo",
+            "Fuerza",
+            "Energía cósmica"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Captain_Marvel_%28Marvel_Comics%29.png/200px-Captain_Marvel_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Ant-Man",
+        "nombre_civil": "Scott Lang",
+        "lugar_nacimiento": "Coral Gables, Florida",
+        "superpoderes": [
+            "Cambio de tamaño",
+            "Comunicación con insectos"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ant-Man_%28Scott_Lang%29.png/200px-Ant-Man_%28Scott_Lang%29.png"
+    },
+    {
+        "nombre_heroe": "Wasp",
+        "nombre_civil": "Hope van Dyne",
+        "lugar_nacimiento": "San Francisco, California",
+        "superpoderes": [
+            "Cambio de tamaño",
+            "Vuelo",
+            "Avispas bioeléctricas"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wasp_%28Marvel_Comics%29.png/200px-Wasp_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Falcon",
+        "nombre_civil": "Sam Wilson",
+        "lugar_nacimiento": "Harlem, New York",
+        "superpoderes": [
+            "Vuelo con alas mecánicas",
+            "Habilidades de combate"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Falcon_%28Marvel_Comics%29.png/200px-Falcon_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Winter Soldier",
+        "nombre_civil": "Bucky Barnes",
+        "lugar_nacimiento": "Brooklyn, New York",
+        "superpoderes": [
+            "Fuerza mejorada",
+            "Arma cibernética",
+            "Habilidades de combate"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Winter_Soldier_%28Marvel_Comics%29.png/200px-Winter_Soldier_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Scarlet Witch",
+        "nombre_civil": "Wanda Maximoff",
+        "lugar_nacimiento": "Sokovia",
+        "superpoderes": [
+            "Magia del caos",
+            "Telequinesis",
+            "Manipulación de la realidad"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Scarlet_Witch_%28Marvel_Comics%29.png/200px-Scarlet_Witch_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Vision",
+        "nombre_civil": "Vision",
+        "lugar_nacimiento": "Laboratorio de Tony Stark",
+        "superpoderes": [
+            "Intangibilidad",
+            "Vuelo",
+            "Rayos de energía"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vision_%28Marvel_Comics%29.png/200px-Vision_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Black Panther",
+        "nombre_civil": "T'Challa",
+        "lugar_nacimiento": "Wakanda",
+        "superpoderes": [
+            "Fuerza",
+            "Agilidad",
+            "Tecnología vibranium"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Black_Panther_%28Marvel_Comics%29.png/200px-Black_Panther_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Deadpool",
+        "nombre_civil": "Wade Wilson",
+        "lugar_nacimiento": "Canadá",
+        "superpoderes": [
+            "Regeneración",
+            "Inmortalidad",
+            "Habilidades de combate"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Deadpool_%28Marvel_Comics%29.png/200px-Deadpool_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Wolverine",
+        "nombre_civil": "Logan",
+        "lugar_nacimiento": "Canadá",
+        "superpoderes": [
+            "Garras de adamantium",
+            "Regeneración",
+            "Sentidos agudos"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Wolverine_%28Marvel_Comics%29.png/200px-Wolverine_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Storm",
+        "nombre_civil": "Ororo Munroe",
+        "lugar_nacimiento": "Kenia",
+        "superpoderes": [
+            "Control del clima",
+            "Vuelo",
+            "Electroquinesis"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Storm_%28Marvel_Comics%29.png/200px-Storm_%28Marvel_Comics%29.png"
+    },
+    {
+        "nombre_heroe": "Cyclops",
+        "nombre_civil": "Scott Summers",
+        "lugar_nacimiento": "Anchorage, Alaska",
+        "superpoderes": [
+            "Rayos ópticos",
+            "Visión infrarroja"
+        ],
+        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cyclops_%28Marvel_Comics%29.png/200px-Cyclops_%28Marvel_Comics%29.png"
+    }
+]

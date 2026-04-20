@@ -1,12 +1,13 @@
 * {
     width: 100%;
+    margin: 0 auto;
 }
 
 body {
     padding: 0;
     margin: 0;
     text-align: center;
-    margin: 0 auto;
+
 }
 
 .flexContainer {
@@ -26,6 +27,16 @@ body {
 .imageContainer {
     width: 75%;
     margin: auto;
+}
+
+article {
+    background-color: black;
+    color: white;
+}
+
+section>:nth-child(even) {
+    background-color: white;
+    color: black;
 }
 
 /*
@@ -48,6 +59,16 @@ INICIO PANTALLA TAMAÑO MEDIO
 
     .imageContainer {
         width: 90%;
+    }
+
+    article {
+        background-color: blue;
+        color: yellow;
+    }
+
+    section:nth-child(even) {
+        background-color: yellow;
+        color: blue;
     }
 }
 
@@ -75,7 +96,19 @@ INICIO PANTALLA TAMAÑO GRANDE
         width: 30%;
     }
 
-    .imageContainer {}
+    .imageContainer {
+        border: 3px solid black;
+    }
+
+    article {
+        background-color: green;
+        color: black;
+    }
+
+    section:nth-child(even) {
+        background-color: black;
+        color: green;
+    }
 
 }
 
