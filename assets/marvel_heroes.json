@@ -7,7 +7,7 @@
             "Genio intelectual",
             "Armadura potenciada"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Iron_Man_Armor_Model_40.png/200px-Iron_Man_Armor_Model_40.png"
+        "enlace_icono": "../assets/images/iconos/icono_iron-man.png"
     },
     {
         "nombre_heroe": "Captain America",
@@ -18,7 +18,7 @@
             "Agilidad",
             "Resistencia"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Captain_America_Shield.png/200px-Captain_America_Shield.png"
+        "enlace_icono": "../assets/images/iconos/icono_captain-america.png"
     },
     {
         "nombre_heroe": "Spider-Man",
@@ -30,7 +30,7 @@
             "Sentido arácnido",
             "Telarañas"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Spider-Man.jpg/200px-Spider-Man.jpg"
+        "enlace_icono": "../assets/images/iconos/icono_spider-man.png"
     },
     {
         "nombre_heroe": "Thor",
@@ -41,7 +41,7 @@
             "Control del trueno",
             "Inmortalidad"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Thor_Official_Poster.jpg/200px-Thor_Official_Poster.jpg"
+        "enlace_icono": "../assets/images/iconos/icono_thor.png"
     },
     {
         "nombre_heroe": "Hulk",
@@ -52,7 +52,7 @@
             "Regeneración",
             "Resistencia"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hulk_%28comics_character%29.png/200px-Hulk_%28comics_character%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_hulk.png"
     },
     {
         "nombre_heroe": "Black Widow",
@@ -63,7 +63,7 @@
             "Artes marciales",
             "Agilidad"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_Widow_%28Marvel_Comics%29.png/200px-Black_Widow_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_black-widow.png"
     },
     {
         "nombre_heroe": "Hawkeye",
@@ -74,7 +74,7 @@
             "Habilidades de combate",
             "Precisión"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hawkeye_%28Marvel_Comics%29.png/200px-Hawkeye_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_hawkeye.png"
     },
     {
         "nombre_heroe": "Doctor Strange",
@@ -85,7 +85,7 @@
             "Teletransportación",
             "Manipulación del tiempo"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Doctor_Strange_poster.jpg/200px-Doctor_Strange_poster.jpg"
+        "enlace_icono": "../assets/images/iconos/icono_doctor-strange.png"
     },
     {
         "nombre_heroe": "Captain Marvel",
@@ -96,7 +96,7 @@
             "Fuerza",
             "Energía cósmica"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Captain_Marvel_%28Marvel_Comics%29.png/200px-Captain_Marvel_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_captain-marvel.png"
     },
     {
         "nombre_heroe": "Ant-Man",
@@ -106,7 +106,7 @@
             "Cambio de tamaño",
             "Comunicación con insectos"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ant-Man_%28Scott_Lang%29.png/200px-Ant-Man_%28Scott_Lang%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_ant-man.png"
     },
     {
         "nombre_heroe": "Wasp",
@@ -117,7 +117,7 @@
             "Vuelo",
             "Avispas bioeléctricas"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wasp_%28Marvel_Comics%29.png/200px-Wasp_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_wasp.png"
     },
     {
         "nombre_heroe": "Falcon",
@@ -127,7 +127,7 @@
             "Vuelo con alas mecánicas",
             "Habilidades de combate"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Falcon_%28Marvel_Comics%29.png/200px-Falcon_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_falcon.png"
     },
     {
         "nombre_heroe": "Winter Soldier",
@@ -138,7 +138,7 @@
             "Arma cibernética",
             "Habilidades de combate"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Winter_Soldier_%28Marvel_Comics%29.png/200px-Winter_Soldier_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_winter-soldier.png"
     },
     {
         "nombre_heroe": "Scarlet Witch",
@@ -149,7 +149,7 @@
             "Telequinesis",
             "Manipulación de la realidad"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Scarlet_Witch_%28Marvel_Comics%29.png/200px-Scarlet_Witch_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_scarlet-witch.png"
     },
     {
         "nombre_heroe": "Vision",
@@ -160,7 +160,7 @@
             "Vuelo",
             "Rayos de energía"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vision_%28Marvel_Comics%29.png/200px-Vision_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_vision.png"
     },
     {
         "nombre_heroe": "Black Panther",
@@ -171,7 +171,7 @@
             "Agilidad",
             "Tecnología vibranium"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Black_Panther_%28Marvel_Comics%29.png/200px-Black_Panther_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_black-panther.png"
     },
     {
         "nombre_heroe": "Deadpool",
@@ -182,7 +182,7 @@
             "Inmortalidad",
             "Habilidades de combate"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Deadpool_%28Marvel_Comics%29.png/200px-Deadpool_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_deadpool.png"
     },
     {
         "nombre_heroe": "Wolverine",
@@ -193,7 +193,7 @@
             "Regeneración",
             "Sentidos agudos"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Wolverine_%28Marvel_Comics%29.png/200px-Wolverine_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_wolverine.png"
     },
     {
         "nombre_heroe": "Storm",
@@ -204,7 +204,7 @@
             "Vuelo",
             "Electroquinesis"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Storm_%28Marvel_Comics%29.png/200px-Storm_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_storm.png"
     },
     {
         "nombre_heroe": "Cyclops",
@@ -214,6 +214,6 @@
             "Rayos ópticos",
             "Visión infrarroja"
         ],
-        "enlace_icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cyclops_%28Marvel_Comics%29.png/200px-Cyclops_%28Marvel_Comics%29.png"
+        "enlace_icono": "../assets/images/iconos/icono_cyclops.png"
     }
 ]

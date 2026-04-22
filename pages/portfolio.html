@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/portfolio.css">
+
+    <!-- Enlace al archivo JS -->
+    <script src="../js/script.js"></script>
 
     <nav>
         <a href="../index.html" alt="pagina inicial"> INICIO</a>
@@ -12,7 +16,19 @@
 
 </head>
 
-<body>
+<body class="gridContainer">
+
+    <a href="../assets/marvel_heroes.json" download="marvel_heroes.json" class="gridItem" id="descarga">Descargar
+        JSON</a>
+
+    <div class="gridItem flexContainer" id="carrousel">
+        <button class="flexItem arrow" id="left-arrow" onclick="anterior()">&lt;</button>
+        <img class="flexItem" id="current-image" src="../assets/images/iconos/icono_iron-man.png"
+            alt="Imagen del héroe">
+        <button class="flexItem arrow" id="right-arrow" onclick="siguiente()">&gt;</button>
+    </div>
+
+    <div class="gridItem" id="jsonData"></div>
 
 </body>
 
