@@ -31,30 +31,54 @@ async function loadJSON() {
 }
 
 // Renderiza la tarjeta del personaje en el contenedor jsonData
-function renderCharacterCard(index) {
-    if (!data.length) return;
-    const hero = data[index];
-    const card = document.getElementById('jsonData');
-    let html = '';
+function renderCharacterCard() {
+    if (!data || !data.length) return;
+
+    const contenedor = document.getElementById('jsonData');
+    const fragment = document.createDocumentFragment();
+
     data.forEach(hero => {
-        html += `
-        <div class="character-card">
-            <div class="character-card-image">
-                <img src="${hero.enlace_icono}" alt="${hero.nombre_heroe}">
-            </div>
-            <div class="character-card-info">
-                <h2>${hero.nombre_heroe}</h2>
-                <p><strong>Nombre civil:</strong> ${hero.nombre_civil}</p>
-                <p><strong>Lugar de nacimiento:</strong> ${hero.lugar_nacimiento}</p>
-                <p><strong>Superpoderes:</strong></p>
-                <ul>
-                    ${hero.superpoderes.map(power => `<li>${power}</li>`).join('')}
-                </ul>
-            </div>
-        </div>
-   `;
+
+        let tarjeta = document.createElement("DIV");
+        tarjeta.className = "character-card";
+
+        let imagenContainer = document.createElement("DIV");
+        imagenContainer.className = "imageContainer";
+
+        let imagenCard = document.createElement("IMG");
+        imagenCard.src = hero.enlace_icono;
+        imagenCard.alt = hero.nombre_heroe;
+
+        let cardInfo = document.createElement("DIV");
+        cardInfo.className = "character-card-info";
+
+        let nombre = document.createElement("H2");
+        nombre.textContent = hero.nombre_heroe;
+
+        let nombreCivil = document.createElement("P");
+        nombreCivil.textContent = `Nombre civil: ${hero.nombre_civil}`;
+
+        let lugarNacimiento = document.createElement("P");
+        lugarNacimiento.textContent = `Lugar de nacimiento: ${hero.lugar_nacimiento}`;
+
+        let textoSuperPoderes = document.createElement("P");
+        textoSuperPoderes.textContent = "Superpoderes";
+
+        let poderes = document.createElement("UL");
+        hero.superpoderes.forEach(poder => {
+            let li = document.createElement("LI");
+            li.textContent = poder;
+            poderes.append(li);
+        });
+
+        cardInfo.append(nombre, nombreCivil, lugarNacimiento, textoSuperPoderes, poderes);
+        imagenContainer.append(imagenCard);
+        tarjeta.append(imagenContainer, cardInfo);
+
+        fragment.append(tarjeta);
     });
-    card.innerHTML = html;
+
+    contenedor.append(fragment);
 }
 
 // Llama a la función cuando sea necesario, por ejemplo, al cargar la página

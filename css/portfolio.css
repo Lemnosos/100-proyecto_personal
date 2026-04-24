@@ -106,6 +106,8 @@ body {
 .character-card {
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    padding: 1.5rem;
+    margin: .5rem 0
 }
