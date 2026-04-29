@@ -30,37 +30,6 @@ async function loadJSON() {
     }
 }
 
-// Renderiza la tarjeta del personaje en el contenedor jsonData
-function renderCharacterCard(index) {
-    if (!data.length) return;
-    const hero = data[index];
-    const card = document.getElementById('jsonData');
-    let html = '';
-    data.forEach(hero => {
-        html += `
-        <div class="character-card">
-            <div class="character-card-image">
-                <img src="${hero.enlace_icono}" alt="${hero.nombre_heroe}">
-            </div>
-            <div class="character-card-info">
-                <h2>${hero.nombre_heroe}</h2>
-                <p><strong>Nombre civil:</strong> ${hero.nombre_civil}</p>
-                <p><strong>Lugar de nacimiento:</strong> ${hero.lugar_nacimiento}</p>
-                <p><strong>Superpoderes:</strong></p>
-                <ul>
-                    ${hero.superpoderes.map(power => `<li>${power}</li>`).join('')}
-                </ul>
-            </div>
-        </div>
-   `;
-    });
-    card.innerHTML = html;
-}
-
-// Llama a la función cuando sea necesario, por ejemplo, al cargar la página
-window.addEventListener('load', loadJSON);
-
-
 // Función para ir a la imagen anterior
 function anterior() {
     currentIndex = (currentIndex - 1 + data.length) % data.length;
@@ -79,3 +48,48 @@ function siguiente() {
     renderCharacterCard(currentIndex);
 }
 
+
+
+
+
+
+
+
+
+
+// Renderiza la tarjeta del personaje en el contenedor jsonData
+function renderCharacterCard(index) {
+    if (!data.length) return;
+    const hero = data[index];
+    const card = document.querySelector('#jsonData');
+    let html = '';
+    data.forEach(hero => {
+        html += `
+        <div class="character-card">
+            <div class="character-card-image">
+                <img src="${hero.enlace_icono}" alt="${hero.nombre_heroe}">
+            </div>
+            <div class="character-card-info">
+                <h2>${hero.nombre_heroe}</h2>
+                <p><strong>Nombre civil:</strong> ${hero.nombre_civil}</p>
+                <p><strong>Lugar de nacimiento:</strong> ${hero.lugar_nacimiento}</p>
+                <p><strong>Superpoderes:</strong></p>
+                <ul>
+                    ${hero.superpoderes.map(power => `<li>${power}</li>`).join('')}
+                </ul>
+            </div>
+        </div>`;
+    });
+    card.innerHTML = html;
+}
+
+
+
+
+
+
+
+
+
+// Llama a la función cuando sea necesario, por ejemplo, al cargar la página
+window.addEventListener('load', loadJSON);

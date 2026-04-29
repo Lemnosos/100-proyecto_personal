@@ -5,69 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro Club</title>
-    <link rel="stylesheet" href="../css/formulario.css">
-    <nav>
-        <a href="../index.html" alt="pagina inicial"> INICIO</a>
-    </nav>
+    <link rel="stylesheet" href="../css/main.css">
+
 </head>
 
 <body>
-    <h2>Formulario de Registro en el Club Patata de ciclismo</h2>
-    <form class="gridContainer">
-        <fieldset class="gridItem">
-            <legend>Datos personales del interesado</legend>
-            <div>
-                <label for="nombre">Nombre:</label>
-                <br>
-                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" autofocus tabindex="1">
-            </div>
-            <div>
-                <label for="apellidos">Apellidos:</label>
-                <br>
-                <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos" tabindex="2">
-            </div>
-            <div>
-                <label for="edad">Edad:</label>
-                <br>
-                <input type="number" id="edad" name="edad" min="0" max="100" placeholder="Tu edad" tabindex="3">
-            </div>
-            <div>
-                <label>Sexo:</label>
-                <br>
-                <input type="radio" id="hombre" name="sexo" value="hombre" tabindex="4">
-                <label for="hombre">Hombre</label>
-                <input type="radio" id="mujer" name="sexo" value="mujer" tabindex="5">
-                <label for="mujer">Mujer</label>
-            </div>
-            <div>
-                <input type="checkbox" id="socio" name="socio" tabindex="6">
-                <label for="socio">Me siento del club</label>
-            </div>
-            <div>
-                <label for="descripcion">Escribe algo sobre ti:</label>
-                <br>
-                <textarea id="descripcion" name="descripcion" placeholder="Cuéntanos algo sobre ti..."
-                    tabindex="7"></textarea>
-            </div>
-        </fieldset>
-        <fieldset class="gridItem">
-            <legend>Datos de contacto</legend>
-            <div>
-                <label for="email">Correo electr nico:</label>
-                <br>
-                <input type="email" id="email" name="email" placeholder="nombre@email.com" tabindex="8">
-            </div>
-            <div>
-                <label for="telefono">Teléfono:</label>
-                <br>
-                <input type="tel" id="telefono" name="telefono" placeholder="678912345" tabindex="9">
-            </div>
-        </fieldset>
-        <input type="submit" value="Enviar" tabindex="10">
-        <input type="reset" value="Resetear" tabindex="11">
-    </form>
+    <div class="gridContainer">
 
+        <header>
+            <h2>Formulario de contacto</h2>
+        </header>
 
+        <nav class="gridItem">
+            <ul>
+                <li class="flexItem"><a href="../index.html" alt="Página de inicio">INICIO</a></li>
+                <li class="flexItem"><a href="biografia.html" alt="Página de biografía">BIOGRAFÍA</a></li>
+                <li class="flexItem"><a href="contacto.html" alt="Página de contacto">CONTACTO</a></li>
+                <li class="flexItem"><a href="portfolio.html" alt="Portfolio">PORTFOLIO</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <form class="gridContainer">
+                <fieldset id="field_interesado" class="gridItem">
+                    <legend>Datos personales del interesado</legend>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" autofocus
+                            tabindex="1">
+                    </div>
+                    <div>
+                        <label for="apellidos">Apellidos:</label>
+                        <br>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos"
+                            tabindex="2">
+                    </div>
+                    <div>
+                        <label for="edad">Edad:</label>
+                        <br>
+                        <input type="number" id="edad" name="edad" min="0" max="100" placeholder="Tu edad" tabindex="3">
+                    </div>
+                    <div>
+                        <label>Sexo:</label>
+                        <br>
+                        <input type="radio" id="hombre" name="sexo" value="hombre" tabindex="4">
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" id="mujer" name="sexo" value="mujer" tabindex="5">
+                        <label for="mujer">Mujer</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="socio" name="socio" tabindex="6">
+                        <label for="socio">Me siento del club</label>
+                    </div>
+                    <div>
+                        <label for="descripcion">Escribe algo sobre ti:</label>
+                        <br>
+                        <textarea id="descripcion" name="descripcion" placeholder="Cuéntanos algo sobre ti..."
+                            tabindex="7"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset id="field_contacto" class="gridItem">
+                    <legend>Datos de contacto</legend>
+                    <div>
+                        <label for="email">Correo electrónico:</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="nombre@email.com" tabindex="8">
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono:</label>
+                        <br>
+                        <input type="tel" id="telefono" name="telefono" placeholder="678912345" tabindex="9">
+                    </div>
+                </fieldset>
+                <div>
+                    <input id="btn_send" type="submit" value="Enviar" tabindex="10">
+                    <input id="btn_reset" type="reset" value="Reset" tabindex="11">
+                </div>
+
+            </form>
+        </main>
+
+        <footer class="gridItem">
+            Un pie de página que contendrá información adicional o derechos de autor.
+        </footer>
+
+    </div>
 
 </body>
 

@@ -1,3 +1,7 @@
+:root {
+    --real_black: #000;
+}
+
 .comic-relief-regular {
     font-family: "Comic Relief", system-ui;
     font-weight: 400;
@@ -11,13 +15,13 @@
 }
 
 * {
-    width: 95%;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     font-family: "Comic Relief", system-ui;
     font-size: 1.5rem;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -35,9 +39,14 @@ nav>ul>li>a {
     text-decoration: none;
 }
 
+nav>ul {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
 .gridContainer {
     display: grid;
-    /*en modo telefono solo hay una columna*/
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
@@ -48,7 +57,7 @@ nav>ul>li>a {
 
 nav {
     grid-row: 1 / 2;
-    background-color: black;
+    background-color: var(--real_black);
 }
 
 header {
@@ -58,26 +67,72 @@ header {
 footer {
     grid-row: 4 / 5;
     background-color: gray;
+    margin-top: 1.5rem;
 }
 
 section {
     grid-row: 3 / 4;
-    background-color: black;
-    color: white;
 }
 
 .flexContainer {
     display: flex;
-    overflow: auto;
     flex-direction: column;
-    padding: 2rem;
+    gap: 3rem;
 }
 
 .flexItem {
     padding: 1%;
     width: 100%;
+    box-sizing: border-box;
 }
 
+figure {
+    background-color: blueviolet;
+}
+
+figure>p {
+    text-decoration: underline;
+}
+
+#section_biografia {
+    background-color: white;
+}
+
+#section_biografia * {
+    color: var(--real_black);
+}
+
+#section_biografia>:nth-child(even) {
+    background-color: yellow;
+}
+
+#section_biografia>:nth-child(odd) {
+    background-color: greenyellow;
+}
+
+#btn_send {
+    background-color: green;
+    color: white;
+    display: inline;
+}
+
+#btn_reset {
+    background-color: red;
+    color: white;
+    display: inline;
+}
+
+#field_interesado {
+    background-color: aqua;
+}
+
+#field_contacto {
+    background-color: aquamarine;
+}
+
+#descripcion {
+    width: 75%;
+}
 
 /*
 ===============================================
@@ -86,10 +141,6 @@ INICIO PANTALLA TAMAÑO MEDIO
 */
 
 @media screen and (min-width: 768px) {
-
-    * {
-        width: 100%;
-    }
 
     body {
         font-size: 1.2rem;
@@ -108,30 +159,25 @@ INICIO PANTALLA TAMAÑO MEDIO
         color: aqua;
     }
 
-    nav {
-        background-color: black;
+    nav>ul {
+        flex-direction: row;
     }
 
     footer {
         background-color: gray;
     }
 
-    section {
-        background-color: black;
-        color: white;
-    }
-
     .flexContainer {
-        flex-direction: row;
-    }
-
-    .flexItem {
-        width: 30%;
-        box-sizing: border-box;
+        justify-content: space-around;
+        gap: 2rem;
     }
 
     #biografia {
         text-align: left;
+    }
+
+    #contacto {
+        text-align: center;
     }
 
     #portfolio {
@@ -146,6 +192,25 @@ FIN PANTALLA TAMAÑO MEDIO
 ===============================================
 */
 
+
+/*
+===============================================
+INICIO PANTALLA TAMAÑO INTERMEDIO
+===============================================
+*/
+@media screen and (min-width:992px) {
+    .flexContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+/*
+===============================================
+FIN PANTALLA TAMAÑO INTERMEDIO
+===============================================
+*/
 
 
 /*
